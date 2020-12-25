@@ -1,7 +1,7 @@
-# TodoList - React + StyleComponet + ContextApi
+# TodoList - React + ContextApi + StyleComponet 
 
 # <기술스택>
-## React , StyleComponent , ContextApi
+## React , ContextApi , StyleComponent
 
 
 
