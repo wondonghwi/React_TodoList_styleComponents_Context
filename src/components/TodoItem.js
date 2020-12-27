@@ -6,7 +6,7 @@ const CheckCircle = styled.div`
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 1px solid #cef4da;
+  border: 1px solid #bac8ff;
   font-size: 24px;
   display: flex;
   align-items: center;

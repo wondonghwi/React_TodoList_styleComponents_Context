@@ -73,7 +73,6 @@ const Input = styled.input`
   box-sizing: border-box;
 `;
 
-
 const TodoCreate = () => {
 
   const [open, setOpen] = useState(false);
