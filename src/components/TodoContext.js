@@ -1,4 +1,4 @@
-import React, { useRef, useReducer, createContext, useContext } from 'react';
+import React, { createContext, useContext, useReducer, useRef } from 'react';
 import produce from "immer";
 
 const initialTodos = [
@@ -37,7 +37,7 @@ const todoReducer = (state, action) => {
       });
     case 'REMOVE':
       return produce(state, draft => {
-        draft.splice(draft.findIndex(todo => todo.id !== action.id))
+        draft.splice(draft.findIndex(todo => todo.id === action.id),1)
       });
     default:
       throw new Error(`Unhandled action ${action.type}`);

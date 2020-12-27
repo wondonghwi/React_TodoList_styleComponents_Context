@@ -11,13 +11,18 @@ const TodoListBlock = styled.div`
 `;
 
 const TodoList = () => {
-  const state = useTodoState();
+  const todos = useTodoState();
   return (
     <TodoListBlock>
-      <TodoItem text='css를 사용하기' done={true}/>
-      <TodoItem text='Scss를 사용하기' done={true}/>
-      <TodoItem text='StyleComponents를 사용하기' done={true}/>
-      <TodoItem text='emotion를 사용하기' done={false}/>
+      {todos.map(todo =>
+        <React.Fragment key={todo.id}>
+          <TodoItem
+            id={todo.id}
+            text={todo.text}
+            done={todo.done}
+          />
+        </React.Fragment>
+      )}
     </TodoListBlock>
   );
 };
