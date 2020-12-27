@@ -6,6 +6,7 @@ import TodoList from "./components/TodoList";
 import TodoCreate from "./components/TodoCreate";
 import { TodoProvider } from "./components/TodoContext";
 
+//전체 Style
 const GlobalStyle = createGlobalStyle`
   body {
     background: #e9ecef;
