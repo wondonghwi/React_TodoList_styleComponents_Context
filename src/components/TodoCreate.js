@@ -79,6 +79,7 @@ const TodoCreate = () => {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState('');
 
+  //useTodo 불러오기
   const dispatch = useTodoDispatch();
   const nextId = useTodoNextId();
 
