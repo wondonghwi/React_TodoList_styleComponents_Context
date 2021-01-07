@@ -2,7 +2,7 @@
 
 # <기술스택> <br/> React , ContextApi , StyleComponents
  
-•	<b>작품소개<b/> : React를 이용하여 TodoList를 개발하였습니다.
+•	<b>프로젝트 소개<b/> : React를 이용하여 TodoList를 개발하였습니다.
 <br/>함수형컴포넌트 Hook의 useReducer와 상태관리 라이브러리 ContextApi로 상태관리를 하고
  <br/>StyleComponents를 이용해 스타일을 입혀서 개발하였습니다. 
  
